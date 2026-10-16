@@ -1,0 +1,16 @@
+{
+  "grid": 300,
+  "steps": 480,
+  "members": 32,
+  "cores": 8,
+  "waktu_serial": 96.77,
+  "waktu_terbaik": 88.38,
+  "speedup_maks": 1.09,
+  "gflops_maks": 0.31,
+  "serial_fraction": 0.956,
+  "threshold": 55.0,
+  "area_prob_ge_50": 0.12,
+  "area_prob_ge_20": 0.72,
+  "area_prob_gt_0": 23.52,
+  "pm25_maks_mean": 88.8
+}
