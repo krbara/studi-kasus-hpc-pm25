@@ -35,15 +35,6 @@ python simulasi_pm25_hpc.py
 python buat_dashboard.py        
 ```
 
-Ukuran simulasi bisa diatur lewat variabel lingkungan, misalnya di PowerShell:
-
-```powershell
-$env:MEMBERS=64; $env:GRID=400; python simulasi_pm25_hpc.py
-```
-
-Untuk publikasi dashboard: GitHub **Settings → Pages → Branch: main, folder: /docs**.
-
-
 ## Catatan penting
 
 - **Speedup bergantung pada perangkat.** Hasilnya berbeda di tiap komputer dan tidak akan mencapai ideal karena
