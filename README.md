@@ -31,8 +31,8 @@ dengan superkomputer LANTA di Thailand. Proyek ini membuat versi kecilnya yang b
 
 ```bash
 pip install -r requirements.txt
-python simulasi_pm25_hpc.py     # simulasi + benchmark -> folder output/
-python buat_dashboard.py        # dashboard web -> docs/index.html
+python simulasi_pm25_hpc.py     
+python buat_dashboard.py        
 ```
 
 Ukuran simulasi bisa diatur lewat variabel lingkungan, misalnya di PowerShell:
@@ -43,15 +43,6 @@ $env:MEMBERS=64; $env:GRID=400; python simulasi_pm25_hpc.py
 
 Untuk publikasi dashboard: GitHub **Settings → Pages → Branch: main, folder: /docs**.
 
-## Keluaran
-
-| File | Isi |
-|---|---|
-| `output/1_benchmark_paralel.csv` | Waktu, speedup, efisiensi, GFLOPS per jumlah proses |
-| `output/2_prakiraan_pm25.png` | Peta rata-rata dan probabilitas melampaui baku mutu |
-| `output/3_speedup_efisiensi.png` | Grafik skalabilitas |
-| `output/summary.json` | Ringkasan hasil |
-| `docs/index.html` | Dashboard web |
 
 ## Catatan penting
 
