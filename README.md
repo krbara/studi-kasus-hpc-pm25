@@ -34,6 +34,7 @@ pip install -r requirements.txt
 python simulasi_pm25_hpc.py     
 python buat_dashboard.py        
 ```
+link index.html https://krbara.github.io/studi-kasus-hpc-pm25/
 
 ## Catatan penting
 
